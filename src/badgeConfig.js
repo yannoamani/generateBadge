@@ -34,6 +34,7 @@ const badgeConfig = {
     // Textes principaux
     nom: "#ffffff",
     prenom: "#cbd5e1",
+    sexe: "#94a3b8",
 
     // Titre principal
     bureauTitle: "#facc15", // jaune doré
@@ -89,6 +90,7 @@ const badgeConfig = {
 
     // "Présente"
     tagline: 17,
+    sexe: 14,
 
     // "Membre de la Tribu"
     bureau: 28,
@@ -113,7 +115,7 @@ const badgeConfig = {
 
   // À ajouter dans badgeConfig
   logos: {
-    left: "./assets/Levi_logo.jpeg",
+    left: "/logo.jpeg",
     right: "./assets/Levi_logo.jpeg",
   },
 };
