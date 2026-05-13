@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/generateBadge/static/css/main.086ade61.css",
-    "main.js": "/generateBadge/static/js/main.a282ca40.js",
-    "static/media/logo.svg": "/generateBadge/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/generateBadge/static/css/main.104c1ef9.css",
+    "main.js": "/generateBadge/static/js/main.7f6b754f.js",
     "index.html": "/generateBadge/index.html",
-    "main.086ade61.css.map": "/generateBadge/static/css/main.086ade61.css.map",
-    "main.a282ca40.js.map": "/generateBadge/static/js/main.a282ca40.js.map"
+    "main.104c1ef9.css.map": "/generateBadge/static/css/main.104c1ef9.css.map",
+    "main.7f6b754f.js.map": "/generateBadge/static/js/main.7f6b754f.js.map"
   },
   "entrypoints": [
-    "static/css/main.086ade61.css",
-    "static/js/main.a282ca40.js"
+    "static/css/main.104c1ef9.css",
+    "static/js/main.7f6b754f.js"
   ]
 }
