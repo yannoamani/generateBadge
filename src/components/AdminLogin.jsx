@@ -57,7 +57,7 @@ export default function AdminLogin({ onSuccess }) {
               className={`w-full px-4 py-3 pr-12 border rounded-xl text-sm focus:outline-none transition-all
                 ${error
                   ? 'border-red-400 bg-red-50 focus:border-red-500'
-                  : 'border-gray-200 focus:border-yellow-900 focus:bg-yellow-900'}`}
+                  : 'border-gray-200 focus:border-yellow-900 focus:bg-white'}`}
             />
             <button
               onClick={() => setShow(!show)}

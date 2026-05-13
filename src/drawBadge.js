@@ -96,7 +96,8 @@ export function drawBadge(
     prenom,
     nom,
     ddn,
-    role
+    role, 
+    sexe
   }
 ) {
 
@@ -117,9 +118,9 @@ export function drawBadge(
 
 const grad = ctx.createLinearGradient(0, 0, W, H);
 
-grad.addColorStop(0, '#0f172a');   // bleu nuit profond
-grad.addColorStop(0.5, '#1e3a8a'); // bleu royal doux
-grad.addColorStop(1, '#0f766e');   // vert/teal spirituel
+grad.addColorStop(0, sexe === 'Masculin' ? 'black' : 'pink');   // bleu nuit profond
+grad.addColorStop(0.5,  sexe === 'Masculin' ? '#1e3a8a' : 'indigo'); // bleu royal doux
+grad.addColorStop(1,  sexe === 'Masculin' ? '#0f766e' : 'indigo');   // vert/teal spirituel
 
 ctx.fillStyle = grad;
 roundedRect(ctx, 0, 0, W, H, 36);
@@ -293,6 +294,25 @@ ctx.fill();
   ctx.fillText(prenomText, W / 2, 560);
 
   // ==========================================================
+  // SEXE
+  // ==========================================================
+   if (sexe) {
+
+    const sexeWidth = ctx.measureText(sexe).width + 50;
+
+    ctx.fillStyle = 'rgba(255,255,255,0.08)';
+    
+    
+
+    ctx.fill();
+
+    ctx.fillStyle = '#ffffff';
+
+    ctx.font = `bold ${fs.sexe}px Poppins`;
+
+    ctx.fillText(sexe, W / 2, 675);
+  }
+  // ==========================================================
   // ROLE
   // ==========================================================
 
@@ -325,6 +345,9 @@ ctx.fill();
   //SEXE
   // ==========================================================
   
+ 
+
+
   
 
   // ==========================================================

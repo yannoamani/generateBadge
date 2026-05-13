@@ -15,6 +15,7 @@ const initialFields = {
   photoImg: null,
   photoSrc: null,
   sexe:     '',
+  
 };
 
 export default function App() {

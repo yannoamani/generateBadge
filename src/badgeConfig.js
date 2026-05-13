@@ -115,7 +115,7 @@ const badgeConfig = {
 
   // À ajouter dans badgeConfig
   logos: {
-    left: "/logo.jpeg",
+    left: "/image/logo.jpeg",
     right: "./assets/Levi_logo.jpeg",
   },
 };
