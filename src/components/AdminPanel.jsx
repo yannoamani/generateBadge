@@ -16,7 +16,7 @@ export default function AdminPanel() {
     try {
       const { data, error } = await supabase
         .from('inscriptions')
-        .select('*')
+        .select('id, prenom, nom, ddn, role,  created_at')
         .order('created_at', { ascending: false });
       if (error) throw error;
       setInscrits(data || []);

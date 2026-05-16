@@ -48,8 +48,8 @@ export default function App() {
         ddn:       fields.ddn || null,
         role:      fields.role || null,
         sexe:      fields.sexe || null,
-        photo_src: fields.photoSrc || null,
-        badge_url: badgeUrl || null,
+        // photo_src: fields.photoSrc || null,
+        // badge_url: badgeUrl || null,
         created_at: new Date().toISOString(),
       }]);
       if (error) throw error;
